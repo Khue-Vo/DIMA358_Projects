@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    /* This makes the casino background universal */
+    background: #ED9BC8 no-repeat center center fixed;
+    background-size: cover;
+    
+    /* This ensures everything stays centered on the screen */
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    min-height: 100vh;
+    box-sizing: border-box;
+
+
+}
+
+#layout {
+    /* Glassmorphism effect for all pages */
+    background: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(12px); 
+    -webkit-backdrop-filter: blur(12px); 
+    
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+    
+    /* Spacing & Sizing */
+    padding: 30px;
+    width: 90%; 
+    max-width: 850px; /* Wider to accommodate the game board */
+    text-align: center;
+    color: white;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#navItems {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+
+
+button {
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    
+}
+
+button:hover {
+        background: rgba(222, 69, 154, 1);
+        color: rgba(255, 255, 255, 1);
+}
