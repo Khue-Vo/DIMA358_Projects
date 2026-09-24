@@ -1,6 +1,5 @@
-// index.js
+// tech-ex.js
 import { initHomeButton,    
-    initExerciseButton,
     initEx1Button,
     initEx2Button,
     initEx3Button,
@@ -10,7 +9,6 @@ import { initHomeButton,
 
 // Initialize navigation
 initHomeButton();
-initExerciseButton();
 initEx1Button();
 initEx2Button();
 initEx3Button();

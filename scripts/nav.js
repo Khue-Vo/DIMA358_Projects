@@ -1,4 +1,4 @@
-// navigation.js
+// nav.js
 
 /**
  * Initializes the Home navigate button.
@@ -7,11 +7,11 @@
  * @returns {void}
  */
 export function initHomeButton() {
-    const homeBtn = document.getElementById("home");
+    const homeBtn = document.getElementById("home-btn");
     if (!homeBtn) return;
 
     homeBtn.addEventListener("click", () => {
-        window.location.href = "index.html";
+        window.location.href = "/index.html";
     });
 }
 

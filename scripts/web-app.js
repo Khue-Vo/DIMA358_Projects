@@ -1,4 +1,4 @@
-// index.js
+// web-app.js
 import { initHomeButton,    
     initExerciseButton,
     initPortfolioButton,
