@@ -58,20 +58,6 @@ export function initEx3Button() {
         window.location.href = "/exercise3/ex3.html";
     });
 }
-/**
-* Initializes the Exercise 4 navigate button.
-* Redirects the user to the Exercise 4 page when clicked.
-*
-* @returns {void}
-*/
-export function initEx4Button() {
-    const exerciseBtn = document.getElementById("ex4-btn");
-    if (!exerciseBtn) return;
-
-    exerciseBtn.addEventListener("click", () => {
-        window.location.href = "/exercise4/ex4.html";
-    });
-}
 
 /**
 * Initializes the Technical Exercises navigate button.
@@ -165,7 +151,6 @@ export function initNavigation() {
     initEx1Button();
     initEx2Button();
     initEx3Button();
-    initEx4Button();
     initPortfolioButton();
     initWebAppButton();
     initKeyboardNavigation();
