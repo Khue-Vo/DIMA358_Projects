@@ -8,7 +8,7 @@ html, body {
 
 body {
     /* This makes the casino background universal */
-    background: #ED9BC8 no-repeat center center fixed;
+    background: url("images/background.png") no-repeat center center fixed;
     background-size: cover;
     
     /* This ensures everything stays centered on the screen */
@@ -48,15 +48,15 @@ body {
     margin-top: 20px;
 }
 
-#navItems {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 20px;
+#navItem {
+    padding: 10px;
 }
 
 
-
+img {
+    width: 200px; 
+    height: 200px;
+}
 
 button {
     background: rgba(255, 255, 255, 0.8);
