@@ -78,3 +78,8 @@ button:hover {
 p { 
     text-align: left;
 }
+
+ul {
+    text-align: left;
+    padding-left: 20px;
+}
