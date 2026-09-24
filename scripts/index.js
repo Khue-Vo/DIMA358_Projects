@@ -1,8 +1,13 @@
 // index.js
-import { initHomeButton, initInstructionButton, initLeaderboardButton, initKeyboardNavigation } from "./navigation.js";
+import { initHomeButton,    
+    initExerciseButton,
+    initPortfolioButton,
+    initWebAppButton,
+    initKeyboardNavigation } from "nav.js";
 
 // Initialize navigation
 initHomeButton();
-initInstructionButton();
-initLeaderboardButton();
-initKeyboardNavigation();
+initExerciseButton();
+initPortfolioButton();
+initWebAppButton();
+initKeyboardNavigation()

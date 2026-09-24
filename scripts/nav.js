@@ -16,106 +16,106 @@ export function initHomeButton() {
 }
 
 /**
-* Initializes the Instruction navigate button.
-* Redirects the user to the instruction page when clicked.
+* Initializes the Exercise 1 navigate button.
+* Redirects the user to the Exercise 1 page when clicked.
 *
 * @returns {void}
 */
 export function initEx1Button() {
-    const exerciseBtn = document.getElementById("technical-exercises");
+    const exerciseBtn = document.getElementById("ex1-btn");
     if (!exerciseBtn) return;
 
     exerciseBtn.addEventListener("click", () => {
-        window.location.href = "../ex1.html";
+        window.location.href = "/exercise1/ex1.html";
     });
 }
 
 /**
-* Initializes the Instruction navigate button.
-* Redirects the user to the instruction page when clicked.
+* Initializes the Exercise 2 navigate button.
+* Redirects the user to the Exercise 2 page when clicked.
 *
 * @returns {void}
 */
 export function initEx2Button() {
-    const exerciseBtn = document.getElementById("technical-exercises");
+    const exerciseBtn = document.getElementById("ex2-btn");
     if (!exerciseBtn) return;
 
     exerciseBtn.addEventListener("click", () => {
-        window.location.href = "technical-exercises.html";
+        window.location.href = "/exercise2/ex2.html";
     });
 }
 /**
-* Initializes the Instruction navigate button.
-* Redirects the user to the instruction page when clicked.
+* Initializes the Exercise 3 navigate button.
+* Redirects the user to the Exercise 3 page when clicked.
 *
 * @returns {void}
 */
 export function initEx3Button() {
-    const exerciseBtn = document.getElementById("technical-exercises");
+    const exerciseBtn = document.getElementById("ex3-btn");
     if (!exerciseBtn) return;
 
     exerciseBtn.addEventListener("click", () => {
-        window.location.href = "technical-exercises.html";
+        window.location.href = "/exercise3/ex3.html";
     });
 }
 /**
-* Initializes the Instruction navigate button.
-* Redirects the user to the instruction page when clicked.
+* Initializes the Exercise 4 navigate button.
+* Redirects the user to the Exercise 4 page when clicked.
 *
 * @returns {void}
 */
 export function initEx4Button() {
-    const exerciseBtn = document.getElementById("technical-exercises");
+    const exerciseBtn = document.getElementById("ex4-btn");
     if (!exerciseBtn) return;
 
     exerciseBtn.addEventListener("click", () => {
-        window.location.href = "technical-exercises.html";
+        window.location.href = "/exercise4/ex4.html";
     });
 }
 
 /**
-* Initializes the Instruction navigate button.
-* Redirects the user to the instruction page when clicked.
+* Initializes the Technical Exercises navigate button.
+* Redirects the user to the technical exercises page when clicked.
 *
 * @returns {void}
 */
 export function initExerciseButton() {
-    const exerciseBtn = document.getElementById("technical-exercises");
+    const exerciseBtn = document.getElementById("technical-exercises-btn");
     if (!exerciseBtn) return;
 
     exerciseBtn.addEventListener("click", () => {
-        window.location.href = "technical-exercises.html";
+        window.location.href = "/technical-exercises.html";
     });
 }
 
 
 /**
- * Initializes the Join navigate button.
- * Redirects the user to the player page when clicked.
+ * Initializes the Portfolio navigate button.
+ * Redirects the user to the portfolio page when clicked.
  * 
  * @returns {void}
  */
 export function initPortfolioButton() {
-    const portfolioBtn = document.getElementById("portfolio");
+    const portfolioBtn = document.getElementById("portfolio-btn");
     if (!portfolioBtn) return;
 
     portfolioBtn.addEventListener("click", () => {
-        window.location.href = "portfolio.html";
+        window.location.href = "/portfolio.html";
     });
 }
 
 /**
- * Initializes the Leaderboard navigate button.
- * Redirects the user to the leaderboard page when clicked.
+ * Initializes the Web App navigate button.
+ * Redirects the user to the web app page when clicked.
  * 
  * @returns {void}
  */
 export function initWebAppButton() {
-    const webAppBtn = document.getElementById("web-app");
+    const webAppBtn = document.getElementById("web-app-btn");
     if (!webAppBtn) return;
 
     webAppBtn.addEventListener("click", () => {
-        window.location.href = "web-app.html";
+        window.location.href = "/web-app.html";
     });
 }
 
@@ -123,9 +123,9 @@ export function initWebAppButton() {
  * Initializes keyboard navigation for the application.
  * Defines the following shortcuts:
  * - Escape: Navigate to the home page (index.html)
- * - I: Navigate to the instruction page (instruction.html)
- * - L: Navigate to the leaderboard page (leaderboard.html)
- * - Enter: Navigate to the player page (player.html)
+ * - E: Navigate to the technical exercises page (technical-exercises.html)
+ * - P: Navigate to the portfolio page (portfolio.html)
+ * - W: Navigate to the web app page (web-app.html)
  * 
  * @returns {void}
  */
@@ -133,19 +133,19 @@ export function initKeyboardNavigation() {
     window.addEventListener("keydown", event => {
         switch (event.key.toLowerCase()) {
             case "escape":
-                window.location.href = "index.html";
+                window.location.href = "/index.html";
                 break;
 
-            case "i":
-                window.location.href = "instruction.html";
+            case "e":
+                window.location.href = "/technical-exercises.html";
                 break;
 
-            case "l":
-                window.location.href = "leaderboard.html";
+            case "p":
+                window.location.href = "/portfolio.html";
                 break;
 
-            case "enter":
-                window.location.href = "player.html";
+            case "w":
+                window.location.href = "/web-app.html";
                 break;
         }
     });
@@ -161,8 +161,12 @@ export function initKeyboardNavigation() {
  */
 export function initNavigation() {
     initHomeButton();
-    initInstructionButton();
-    initJoinButton();
-    initLeaderboardButton();
+    initExerciseButton();
+    initEx1Button();
+    initEx2Button();
+    initEx3Button();
+    initEx4Button();
+    initPortfolioButton();
+    initWebAppButton();
     initKeyboardNavigation();
 }
