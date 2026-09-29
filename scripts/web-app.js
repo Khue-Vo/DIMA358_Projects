@@ -1,11 +1,21 @@
 // web-app.js
+
 import { initHomeButton,    
+
     initExerciseButton,
+
     initPortfolioButton,
-    initKeyboardNavigation } from "/scripts/nav.js";
+
+    initKeyboardNavigation } from "./nav.js";
+
+
 
 // Initialize navigation
+
 initHomeButton();
+
 initExerciseButton();
+
 initPortfolioButton();
+
 initKeyboardNavigation()
