@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-    /* This makes the casino background universal */
+    /* This makes the background universal */
     background: url("images/background.png") no-repeat center center fixed;
     background-size: cover;
     
@@ -42,13 +42,13 @@ body {
     margin-bottom: 20px;
 }
 
-#nav {
+.nav {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-#navItem {
+.navItem {
     padding: 10px;
 }
 
