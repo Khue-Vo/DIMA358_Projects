@@ -1,0 +1,34 @@
+<figure>
+<img src="images/proscons-airpods-in-ear.jpg" alt="Person wearing AirPods">
+<figcaption>No wire, nothing to snag.</figcaption>
+</figure>
+
+<h3>Pros</h3>
+<ul>
+<li><strong>No wire.</strong> Nothing snags on chairs, drawer pulls, or dish racks. This is the biggest change from EarPods.</li>
+<li><strong>Light and easy to forget.</strong> Reviewers say they are so light that you stop noticing them, and the music feels like it is in the air around you.</li>
+<li><strong>Fast, automatic pairing.</strong> After the first setup, they connect on their own, and the pairing carries across other Apple devices on the same account.</li>
+<li><strong>Strong connection.</strong> Reviewers say AirPods are among the best at holding a Bluetooth connection.</li>
+<li><strong>They stay in.</strong> Many people feared they would fall out. For most users they stay put, and they are hard to knock loose by accident.</li>
+<li><strong>Smart extras.</strong> Auto play and pause, good call quality for wireless earbuds, and a charging case that doubles as storage.</li>
+</ul>
+
+<figure>
+<img src="images/proscons-case-open.jpg" alt="AirPods charging case open with both earbuds inside">
+<figcaption>The case charges the buds, but it is one more thing to carry and charge.</figcaption>
+</figure>
+
+<h3>Cons</h3>
+<ul>
+<li><strong>Price.</strong> The first AirPods cost $130 more than EarPods, and even many fans find them pricey.</li>
+<li><strong>Charging.</strong> Wired earphones never run out of battery. AirPods do, and the sound cuts to a dull low-power tone when they are nearly empty.</li>
+<li><strong>Battery wear.</strong> One university report estimates the batteries work at peak capacity for about 18 months, then slowly hold less charge.</li>
+<li><strong>Hard to repair.</strong> The tight, sealed build makes them difficult to take apart, so a worn battery often means buying a new pair.</li>
+<li><strong>One size fits all.</strong> There are no replaceable ear tips, so the fit is great for some people and poor for others.</li>
+<li><strong>Easy to lose.</strong> Two tiny buds are easier to drop or misplace than one wired pair.</li>
+<li><strong>Not for audiophiles.</strong> Reviewers love the sound for everyday listening, but they do not claim it beats high-end headphones.</li>
+<li><strong>E-waste.</strong> The small, hard-to-open design makes recycling difficult, and reports suggest most pairs end up in landfills.</li>
+</ul>
+
+<h3>The Verdict</h3>
+<p>AirPods trade some durability and low cost for freedom and convenience. The wired EarPods are cheaper, never need charging, and rarely break. AirPods are lighter, cleaner to use, and better connected to the Apple ecosystem. For anyone tired of the leash, that trade has been worth it. Interest in wired earphones has been rising again lately, partly because people like the simplicity of having no battery to charge.</p>

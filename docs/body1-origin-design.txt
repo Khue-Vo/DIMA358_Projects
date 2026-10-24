@@ -1,0 +1,31 @@
+<h3>The Idea Started Before the Product</h3>
+<p>AirPods feel new, but the idea is older than most people think. On March 29, 2011, Apple engineer Jorge S. Fino filed a patent for EarPod-style earphones that could work with or without a wire. It was called a Detachable Wireless Listening Device, and it was not published until October 2012.</p>
+<figure>
+<img src="images/origin-patent-drawing.jpg" alt="Patent drawing of a wired earphone with a detachable wireless section">
+<figcaption>The 2011 patent drawing. Notice the break in the cable.</figcaption>
+</figure>
+<p>The drawings show a cable with a break in it. The goal was a listening device that would not be interrupted by connection problems, not a wireless-only product. At the time, Steve Jobs was not a fan of Bluetooth either. In 2005, he said the sound quality was not good enough and that people did not want to recharge their headphones.</p>
+
+<h3>Building Toward It</h3>
+<p>Apple spent the next few years getting ready. It bought Beats in 2014 for about $3 billion, a move that surprised many people. In March 2015, it filed the "AirPods" trademark through a company called Entertainment in Flight LLC. Many suspected this was a shell company, which let Apple protect the name without announcing a product. The trademark was registered in August 2015, and today the filing lists Apple.</p>
+<p>The last step was the headphone jack. On September 7, 2016, Apple removed it from the iPhone 7 and announced AirPods the same day. They reached stores in late December.</p>
+<figure>
+<img src="images/origin-airpods-2016-launch.jpg" alt="The first-generation AirPods with their charging case">
+<figcaption>The first AirPods, announced in September 2016.</figcaption>
+</figure>
+
+<h3>The Design Idea: EarPods Without the Wire</h3>
+<p>The design idea was simple: take the EarPods and cut the cord. Apple's wired EarPods, launched in 2012 with the iPhone 5, already had an asymmetrical shape made to fit the ear and rest in the outer part of it. AirPods kept that open, easy-fit feel and removed everything else.</p>
+<figure>
+<img src="images/origin-earpods-vs-airpods.jpg" alt="Wired EarPods next to AirPods">
+<figcaption>Same basic shape, no wire.</figcaption>
+</figure>
+<p>The look has a story too. Jony Ive reportedly told director J.J. Abrams that the original Star Wars stormtroopers were on his mind when he designed Apple's earbuds. The costume designer for the newer films said Apple inspired the new stormtroopers in return.</p>
+
+<h3>Why the Stem?</h3>
+<p>The stems were the most mocked part of the design. One reviewer called the AirPods expensive and easy-to-lose cigarette butts. But the stems have a job. They hold the Bluetooth electronics and the batteries. That keeps the space inside the bud free for the speaker, so Apple could focus on sound. The stem also helps hold the AirPod in your ear, which appears to have been a happy accident.</p>
+<figure>
+<img src="images/origin-airpod-stem-closeup.jpg" alt="Close-up of an AirPod showing the stem">
+<figcaption>The stem holds the electronics and batteries.</figcaption>
+</figure>
+<p>Inside, much of the electronics sit in one custom chip package called the W1. Apple does not share many technical details, but the W1 is the reason pairing is quick and automatic across your Apple devices.</p>
