@@ -18,8 +18,12 @@ body {
     min-height: 100vh;
     box-sizing: border-box;
 
+    text-align: center;
+    color: #484847;
+
 
 }
+
 
 #layout {
     /* Glassmorphism effect for all pages */
@@ -35,8 +39,6 @@ body {
     padding: 30px;
     width: 90%; 
     max-width: 850px; /* Wider to accommodate the game board */
-    text-align: center;
-    color: #484847;
 
     margin-top: 20px;
     margin-bottom: 20px;
@@ -98,4 +100,69 @@ p {
 ul {
     text-align: left;
     padding-left: 20px;
+}
+
+/* This is for the ex 2 */
+#ex2 {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    grid-template-areas:
+        "nav nav nav"
+        "header header header"
+        "sidebar main main"
+        "footer footer footer";
+    min-height: 100vh;
+    margin: 0;
+}
+
+nav {
+    grid-area: nav;
+    padding: 20px;
+}
+
+header {
+    grid-area: header;
+    padding: 20px;
+}
+
+aside {
+    grid-area: sidebar;
+    padding: 20px;
+}
+
+aside .sticky-menu {
+    position: sticky;
+    top: 20px; /* Keep it 20px from the top of the screen while scrolling */
+    display: flex;
+    flex-direction: column;
+}
+
+aside a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #484847;
+    font-weight: bold;
+    
+}
+
+main {
+    grid-area: main;
+    padding: 20px;
+    text-align: left;
+}
+
+footer {
+    grid-area: footer;
+    padding: 20px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+}
+
+footer nav section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
