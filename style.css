@@ -56,27 +56,12 @@ body {
     padding: 10px;
 }
 
-table .exerciseItem {
-    background: rgba(95, 158, 160, 0.5);
-    border-radius: 20px;
-    margin: 10px;
-    padding: 0px 20px 20px;
-
-}
-
-table .exerciseItem .top-item {
-    height: 100px;
-}
 
 img {
     width: 200px; 
     height: 200px;
 }
 
-table .exerciseItem img{
-    width: 350px; 
-    height: 250px;
-}
 
 button {
     background: rgba(255, 255, 255, 0.8);
@@ -103,8 +88,30 @@ ul {
     text-align: left;
     padding-left: 20px;
 }
+/* This is for the tech ex 1 */
+table .exerciseItem {
+    background: rgba(95, 158, 160, 0.5);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 0px 20px 20px;
 
-/* This is for the ex 2 */
+}
+
+table .exerciseItem .top-item {
+    height: 100px;
+}
+
+table .exerciseItem img{
+    width: 350px; 
+    height: auto;
+}
+
+
+
+
+
+
+/* This is for the tech ex 2 */
 #ex2 {
     display: grid;
     grid-template-columns: 350px 1fr;

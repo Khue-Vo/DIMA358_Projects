@@ -32,7 +32,7 @@ initWebAppButton();
 
 initKeyboardNavigation();
 
-const IMAGE_BASE = '../images/'; // Base path for images from the txt files
+const IMAGE_BASE = '../images/tech-ex-2'; // Base path for images from the txt files
 
 document.addEventListener("DOMContentLoaded", () => {
     loadAllSections();
