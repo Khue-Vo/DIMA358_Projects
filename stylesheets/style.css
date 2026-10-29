@@ -1,5 +1,9 @@
 /* style.css */
 
+:root {
+    --primary-font: #DE459A; /* A vibrant pink for highlights */
+}
+
 html {
     margin: 0;
     padding: 0;
@@ -12,7 +16,7 @@ body {
     width: 100%;
     min-height: 100vh;
     /* This makes the background universal */
-    background: url("images/background.png") no-repeat center center fixed;
+    background: url("../images/background.png") no-repeat center center fixed;
     background-size: cover;
     
     /* This ensures everything stays centered on the screen */
@@ -215,4 +219,8 @@ footer nav section {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
 }

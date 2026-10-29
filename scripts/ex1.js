@@ -32,5 +32,3 @@ initWebAppButton();
 
 initKeyboardNavigation()
 
-// Base path for images
-const IMAGE_BASE = '../images/tech-ex-2'; 
