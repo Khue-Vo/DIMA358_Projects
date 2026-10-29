@@ -1,5 +1,5 @@
 <figure>
-<img src="images/proscons-airpods-in-ear.jpg" alt="Person wearing AirPods">
+<img src="images/tech-ex-2/proscons-airpods-in-ear.jpg" alt="Person wearing AirPods">
 <figcaption>No wire, nothing to snag.</figcaption>
 </figure>
 
@@ -14,7 +14,7 @@
 </ul>
 
 <figure>
-<img src="images/proscons-case-open.jpg" alt="AirPods charging case open with both earbuds inside">
+<img src="images/tech-ex-2/proscons-case-open.jpg" alt="AirPods charging case open with both earbuds inside">
 <figcaption>The case charges the buds, but it is one more thing to carry and charge.</figcaption>
 </figure>
 

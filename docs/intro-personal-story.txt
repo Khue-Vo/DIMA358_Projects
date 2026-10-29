@@ -1,6 +1,6 @@
 <p>For years, I wore Apple's wired EarPods like a wedding ring. I never thought about them, and I never wanted to take them off.</p>
 <figure>
-<img src="images/intro-wired-earpods.jpg" alt="Apple wired EarPods">
+<img src="images/tech-ex-2/intro-wired-earpods.jpg" alt="Apple wired EarPods">
 <figcaption>Apple's wired EarPods.</figcaption>
 </figure>
 <p>They were indestructible and sounded amazing. They lived at the bottom of my bag, got crushed under keys, and survived the day my phone slipped out of my hands and hit the floor. They still played every song beautifully. But the wire snagged on chairs, drawer pulls, and dish racks, anything with a hook. My favorite earphones had become a leash, and everything pulled me back.</p>
@@ -8,7 +8,7 @@
 <p>For the first time, I walked around the house and nothing caught on me. My ears felt like nothing was there. The sound was still the best I'd ever heard, as if the music were surrounding me in 360 degrees.</p>
 <p>I worried I'd lose them, since they're so light and small. But the good outweighs the bad. Surprisingly, I adore them more as time goes on and I discover more about them.</p>
 <figure>
-<img src="images/intro-wireless-airpods.jpg" alt="Apple wireless AirPods">
+<img src="images/tech-ex-2/intro-wireless-airpods.jpg" alt="Apple wireless AirPods">
 <figcaption>Apple's wireless AirPods.</figcaption>
 </figure>
 <p>What surprised me most was how long, yet how short, the journey was from an idea to an actual pair of earbuds in our ears.</p>

@@ -2,7 +2,7 @@
 <p>The story starts with the wired line. EarPods arrived in September 2012 and replaced Apple's older round earbuds, with a contoured shape that was meant to fit better and sound better. In 2016, the same year AirPods launched, Apple also released a Lightning version of EarPods for the iPhone 7. It had a small digital-to-analog converter built in, because Lightning does not carry analog audio.</p>
 <p>The wired version has kept going. Apple stopped putting EarPods in the iPhone box with the iPhone 12 in 2020, though France kept getting them until 2022. A USB-C version followed in September 2023 with the iPhone 15.</p>
 <figure>
-<img src="images/evolution-earpods-connectors.jpg" alt="EarPods with 3.5 mm, Lightning, and USB-C connectors">
+<img src="images/tech-ex-2/evolution-earpods-connectors.jpg" alt="EarPods with 3.5 mm, Lightning, and USB-C connectors">
 <figcaption>EarPods came with three connectors over the years: 3.5 mm, Lightning, and USB-C.</figcaption>
 </figure>
 
@@ -10,7 +10,7 @@
 <p>The first AirPods launched at $159, compared with $29 for EarPods. They solved a problem wireless earphones had: the microphone. With no wire, the mics had to sit on the bud, far from your mouth. Apple added a voice accelerometer and a pair of beamforming microphones to pick out your voice. Optical sensors and motion sensors also tell the AirPods when they are in your ears, so music starts when you put them in and stops when you take them out.</p>
 <p>The system came in three parts: a left bud, a right bud, and a charging case. Each part has its own lithium-ion battery. The case was sold in two versions, with or without wireless charging.</p>
 <figure>
-<img src="images/evolution-first-gen-teardown.jpg" alt="Teardown of a first-generation AirPod showing the W1 chip">
+<img src="images/tech-ex-2/evolution-first-gen-teardown.jpg" alt="Teardown of a first-generation AirPod showing the W1 chip">
 <figcaption>Inside a first-generation AirPod. The W1 chip holds much of the electronics.</figcaption>
 </figure>
 
@@ -20,7 +20,7 @@
 <h3>AirPods Pro (2nd Generation)</h3>
 <p>By September 2022, Apple had moved to the H2 chip. It brought better noise cancellation, an Adaptive Transparency mode, longer battery life, and support for personalized spatial audio. A CT scan by Lumafield showed that the inside of the earbuds looked very similar to the first generation: a battery in the head, the logic board behind it, and the antenna and charging contacts in the stem. Three microphones were arranged as before. The one new part was a sensor on the stem for a swipe gesture that controls volume.</p>
 <figure>
-<img src="images/evolution-airpods-pro-2-ct-scan.jpg" alt="CT scan of the AirPods Pro 2 earbud and charging case">
+<img src="images/tech-ex-2/evolution-airpods-pro-2-ct-scan.jpg" alt="CT scan of the AirPods Pro 2 earbud and charging case">
 <figcaption>A CT scan of the AirPods Pro (2nd generation). Image: Lumafield.</figcaption>
 </figure>
 <p>The case changed more. It gained a U1 chip for precise Find My tracking, a small speaker for sounds and location pings, and four magnets around the charging coil so it lines up with MagSafe and Apple Watch chargers. Inside the lid, Apple swapped a spring-loaded pin for a thin bistable metal strap that snaps between two positions. That means fewer parts and a simpler build. The hinge looks like metal, but the scan showed it is electroplated plastic with a metal pin inside.</p>
