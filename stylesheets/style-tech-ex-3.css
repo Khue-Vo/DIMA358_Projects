@@ -161,7 +161,7 @@ footer nav {
   justify-content: center;
 }
 
-footer nav section {
+footer nav div {
   display: flex;
   flex-direction: column;
   align-items: center;
