@@ -1,13 +1,10 @@
 /* style.css */
 
-:root {
-    --primary-font: #DE459A; /* A vibrant pink for highlights */
-}
-
 html {
     margin: 0;
     padding: 0;
     width: 100%;
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
 }
 
 body {
@@ -91,136 +88,4 @@ p {
 ul {
     text-align: left;
     padding-left: 20px;
-}
-/* This is for the tech ex 1 */
-table .exerciseItem {
-    background: rgba(95, 158, 160, 0.5);
-    border-radius: 20px;
-    margin: 10px;
-    padding: 0px 20px 20px;
-
-}
-
-table .exerciseItem .top-item {
-    height: 100px;
-}
-
-table .exerciseItem img{
-    width: 350px; 
-    height: auto;
-}
-
-
-
-
-
-
-/* This is for the tech ex 2 */
-#ex2 {
-    display: grid;
-    grid-template-columns: 350px 1fr;
-    grid-template-areas:
-        "nav nav nav"
-        "header header header"
-        "sidebar main main"
-        "footer footer footer";
-    min-height: 100vh;
-    margin: 0;
-}
-
-nav {
-    grid-area: nav;
-    padding: 20px;
-}
-
-header {
-    grid-area: header;
-    padding: 20px;
-}
-
-aside {
-    grid-area: sidebar;
-    padding: 20px;
-    align-self: stretch;
-}
-
-aside .sticky-menu {
-    background: rgba(255, 255, 255, 0.15); 
-    backdrop-filter: blur(12px); 
-    -webkit-backdrop-filter: blur(12px); 
-    
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 20px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
-    
-    position: sticky;
-    top: 30%; 
-    display: flex;
-    flex-direction: column;
-    padding: 30px 0;
-}
-
-aside a {
-    margin-bottom: 20px;
-    text-decoration: none;
-    color: #484847;
-    font-weight: bold;
-    
-}
-
-main {
-    grid-area: main;
-    padding: 20px;
-    text-align: left;
-}
-
-main h3, main p, main ul{
-    margin: 0px 50px 10px 50px;
-}
-
-main figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto; 
-    text-align: center;
-}
-
-main figure img {
-    max-width: 80%;
-    width: auto;
-    height: auto;
-    border-radius: 10px;
-}
-
-footer {
-    grid-area: footer;
-    padding: 20px;
-}
-
-.works-cited {
-    list-style: none;
-    padding-left: 0;
-}
-.works-cited li {
-    text-align: left;
-    padding-left: 48px;
-    text-indent: -48px;
-    margin: 10px 20px;
-}
-
-footer nav {
-  display: flex;
-  justify-content: center;
-}
-
-footer nav section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-ul {
-    list-style: none;
-    padding-left: 0;
 }

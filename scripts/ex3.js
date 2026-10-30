@@ -17,20 +17,19 @@ import { initHomeButton,
 
 
 // Initialize navigation
-
 initHomeButton();
-
 initExerciseButton();
-
 initEx1Button();
-
 initEx2Button();
-
 initPortfolioButton();
-
 initWebAppButton();
-
 initKeyboardNavigation();
+
+// Back to top button
+const backToTopButton = document.getElementById('top-btn');
+backToTopButton.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
 
 const IMAGE_BASE = '../images/'; // Base path for images from the txt files
 

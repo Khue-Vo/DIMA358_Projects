@@ -1,9 +1,9 @@
-<figure>
+<h3>Pros</h3>
+<figure class="float-left">
 <img src="images/tech-ex-2/proscons-airpods-in-ear.jpg" alt="Person wearing AirPods">
 <figcaption>No wire, nothing to snag.</figcaption>
 </figure>
 
-<h3>Pros</h3>
 <ul>
 <li><strong>No wire.</strong> Nothing snags on chairs, drawer pulls, or dish racks. This is the biggest change from EarPods.</li>
 <li><strong>Light and easy to forget.</strong> Reviewers say they are so light that you stop noticing them, and the music feels like it is in the air around you.</li>
@@ -12,13 +12,13 @@
 <li><strong>They stay in.</strong> Many people feared they would fall out. For most users they stay put, and they are hard to knock loose by accident.</li>
 <li><strong>Smart extras.</strong> Auto play and pause, good call quality for wireless earbuds, and a charging case that doubles as storage.</li>
 </ul>
+<h3>Cons</h3>
 
-<figure>
+<figure class="float-right">
 <img src="images/tech-ex-2/proscons-case-open.jpg" alt="AirPods charging case open with both earbuds inside">
 <figcaption>The case charges the buds, but it is one more thing to carry and charge.</figcaption>
 </figure>
 
-<h3>Cons</h3>
 <ul>
 <li><strong>Price.</strong> The first AirPods cost $130 more than EarPods, and even many fans find them pricey.</li>
 <li><strong>Charging.</strong> Wired earphones never run out of battery. AirPods do, and the sound cuts to a dull low-power tone when they are nearly empty.</li>

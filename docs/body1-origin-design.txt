@@ -15,14 +15,14 @@
 </figure>
 
 <h3>The Design Idea: EarPods Without the Wire</h3>
-<p>The design idea was simple: take the EarPods and cut the cord. Apple's wired EarPods, launched in 2012 with the iPhone 5, already had an asymmetrical shape made to fit the ear and rest in the outer part of it. AirPods kept that open, easy-fit feel and removed everything else.</p>
-<figure>
+<figure class="float-left">
 <img src="images/tech-ex-2/origin-earpods-vs-airpods.jpg" alt="Wired EarPods next to AirPods">
 <figcaption>Same basic shape, no wire.</figcaption>
 </figure>
+<p>The design idea was simple: take the EarPods and cut the cord. Apple's wired EarPods, launched in 2012 with the iPhone 5, already had an asymmetrical shape made to fit the ear and rest in the outer part of it. AirPods kept that open, easy-fit feel and removed everything else.</p>
 <p>The look has a story too. Jony Ive reportedly told director J.J. Abrams that the original Star Wars stormtroopers were on his mind when he designed Apple's earbuds. The costume designer for the newer films said Apple inspired the new stormtroopers in return.</p>
 
-<h3>Why the Stem?</h3>
+<h3 class="clear">Why the Stem?</h3>
 <p>The stems were the most mocked part of the design. One reviewer called the AirPods expensive and easy-to-lose cigarette butts. But the stems have a job. They hold the Bluetooth electronics and the batteries. That keeps the space inside the bud free for the speaker, so Apple could focus on sound. The stem also helps hold the AirPod in your ear, which appears to have been a happy accident.</p>
 <figure>
 <img src="images/tech-ex-2/origin-airpod-stem-closeup.jpg" alt="Close-up of an AirPod showing the stem">

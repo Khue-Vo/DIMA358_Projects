@@ -1,0 +1,25 @@
+/* style-tech-ex-1.css */
+
+/* This is for the tech ex 1 */
+table .exerciseItem {
+    background: rgba(95, 158, 160, 0.5);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 0px 20px 20px;
+
+}
+
+table .exerciseItem .top-item {
+    height: 100px;
+}
+
+table .exerciseItem img{
+    width: 350px; 
+    height: auto;
+}
+
+
+
+
+
+

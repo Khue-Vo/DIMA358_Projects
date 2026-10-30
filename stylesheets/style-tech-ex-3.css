@@ -1,0 +1,178 @@
+/* style-tech-ex-3.css */
+
+
+
+body {
+    font-family: "Darker Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 20px;
+    color: rgb(57,42,35);
+
+}
+
+/* This is for the tech ex 3 */
+#ex3 {
+    display: grid;
+    grid-template-columns: 350px 1fr 1fr;
+    grid-template-areas:
+        "nav nav nav"
+        "header header header"
+        "sidebar main main"
+        "footer footer footer";
+    min-height: 100vh;
+    margin: 0;
+}
+
+nav {
+    grid-area: nav;
+    padding: 20px;
+}
+
+header {
+    grid-area: header;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.35);
+}
+
+header h1, main h2, main h3{
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-style: normal;
+    text-align: center;
+    font-size: 44px;
+}
+
+aside {
+    grid-area: sidebar;
+    padding: 20px;
+    align-self: stretch;
+}
+
+aside .sticky-menu {
+    background: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(12px); 
+    -webkit-backdrop-filter: blur(12px); 
+    
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+    
+    position: sticky;
+    top: 15%; 
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+
+}
+
+aside a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(57,42,35);
+}
+
+aside a:hover {
+    color: rgba(222, 69, 154, 1);
+}
+
+main {
+    grid-area: main;
+    padding: 20px;
+    text-align: left;
+}
+
+main h2 {
+    color: rgb(94,69,57);
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0 10px 0;
+    margin:0;
+}
+
+main h3 {
+    color: rgb(94,69,57);
+    text-align: left;
+    font-size: 20px;
+    padding-top: 15px;
+    margin:0;
+}
+
+main h3, main p, main ul{
+    margin: 0px 50px 10px 50px;
+}
+
+main figcaption {
+    font-style: italic;
+    font-size: 14px;
+}
+
+main figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0 10px 0; /* Vertical spacing */
+}
+
+/* Left Aligned */
+main figure.float-left {
+    float: left;
+}
+
+/* Right Aligned */
+main figure.float-right {
+    float: right;
+    
+}
+
+main figure img {
+    max-width: 80%;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+main h3.clear {
+    clear: both;
+    margin-top: 20px;
+}
+
+footer {
+    grid-area: footer;
+    padding: 20px;
+}
+
+.works-cited {
+    list-style: none;
+    padding-left: 0;
+}
+.works-cited li {
+    text-align: left;
+    padding-left: 48px;
+    text-indent: -48px;
+    margin: 10px 20px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+}
+
+footer nav section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#ex3 p {
+    text-align: justify;
+    margin-top: 10px;
+}
+
